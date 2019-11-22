@@ -2,12 +2,10 @@ from ecommerce.shipping import calc_shipping
 from pathlib import Path
 import random
 
-
-
 """print("Hello World") #Imprime hola mundo
 print('*'*10) #Imprime un string de 10 concatenaciones de '*'
 x = input("Input :")
-print("hello , " + x)"""
+print("hello , " + x)
 entry = input('>')
 words = entry.split(' ')
 emojis = {
@@ -40,9 +38,13 @@ class Person:
         print("Draw")
 
 
+
 for x in range(3):
     random.random()
     random.randint(10,20)
     print(random.choice(["Juan","Pedro","Ana"]))
-
+"""
 path = Path()
+for file in path.glob("*"):
+    print(file)
+
